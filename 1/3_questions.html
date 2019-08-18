@@ -78,12 +78,12 @@ div{
 
 <div class="big"> 
 <!--${
-define : はい
-require : [猫]
+"define" : "はい",
+"require" : ["猫"]
 }-->
 <!--${
-define : いいえ
-require : [猫]
+"define" : "いいえ",
+"require" : ["猫"]
 }-->
 <p>&#12868<ruby>猫<rt>ねこ</rt></ruby> 
 &#10068
@@ -96,8 +96,8 @@ require : [猫]
  
 <div class="big_card">
 <!--${
-define : かえる
-require : [NULL]
+"define" : "かえる",
+"require" : [NULL]
 }-->
 <p>
 &#128056<br>
@@ -115,8 +115,8 @@ require : [NULL]
 
 <div class="big">
 <!--${
-define : 怖い
-require : [NULL]
+"define" : "怖い",
+"require" : [NULL]
 }-->
 <p>
 <span class = "whiter" style="border:8px; border-style:solid; padding: 20px;border-radius: 25px;">
@@ -134,8 +134,7 @@ require : [NULL]
 <p>
 &#129499;&#8205;&#9794;&#65039;
 <br>
-&#12868 
-ドラキュラ<span class="particle">は</span><ruby>怖<rt>こわ</rt></ruby>い &#10068
+&#12868 ドラキュラ<span class="particle">は</span><ruby>怖<rt>こわ</rt></ruby>い &#10068
 <br>
 &#128576 : はい&#65377; <ruby>怖<rt>こわ</rt></ruby>い&#65377;
 </div> 
@@ -196,7 +195,7 @@ require : [NULL]
 <p>
 &#129313 
 <br>
-ピエロは<ruby>楽<rt>たの</rt></ruby>しい &#10068<br>
+&#12868 ピエロは<ruby>楽<rt>たの</rt></ruby>しい &#10068<br>
 &#128569; : はい&#65377; <ruby>楽<rt>たの</rt></ruby></font>しい&#65377;
 </div>
 
@@ -226,15 +225,18 @@ require : [NULL]
 &#129499;&#8205;&#9794;&#65039;
 <br>
 &#12868 
-ドラキュラは<ruby>楽<rt>たの</rt></ruby>い &#10068<br>
-<ruby>&#128520;<rt><span class="onomatopea">ガハハ</span></rt></ruby> : いいえ&#65377; <ruby>楽<rt>たの</rt></ruby><font color="red">くな</font>い&#65377;
+ドラキュラは<ruby>楽<rt>たの</rt></ruby>しい &#10068<br>
+<ruby>&#128520;<rt><span class="onomatopea">ガハハ</span></rt></ruby> : いいえ&#65377; <ruby>楽<rt>たのし</rt></ruby><font color="red">くな</font>い&#65377;
 <br>
 <ruby>強<rt>つよ</rt></ruby><font color="red">くて</font><ruby>怖<rt>こわ</rt></ruby>い&#65377;
 </div> 
 
 
 <div class="big">
-
+<!--${
+"define" : "言う",
+"require" : ["ピエロ", "楽しい"]
+}-->
 <p>
 <span class = "whiter" style="border:8px; border-style:solid; padding: 15px;border-radius: 25px;"><ruby>楽<rt>たの</rt></ruby>しいだ</span> 
 <br>

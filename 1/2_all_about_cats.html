@@ -155,16 +155,16 @@ div.square {
  
 <div class="card big">
 <p>&#128266
+<ruby>猫<rt>&#128568</rt></ruby> : <span class="onomatopea">ニャーニャー</span>
 <br>
-<ruby>猿<rt>&#128568</rt></ruby> : <span class="onomatopea">ニャーニャー</span>
 </p>
 </div>
 
  
 <div class="card big">
 <!--${
-define : 匹
-require : [猫]
+"define" : "匹"
+"require" : ["猫"]
 }-->
 <p>
 <ruby>猫<rt>&#128568</rt></ruby> + <ruby>猫<rt>&#128568 </rt></ruby>  =  
@@ -178,8 +178,8 @@ require : [猫]
 
 <div class="card big">
 <!--${
-define : 赤
-require : [NULL]
+"define" : "赤"
+"require" : [NULL]
 }--> 
 <div class="square"></div>
 <font color="red"><ruby>赤<rt>あか</rt></ruby></font>
@@ -194,8 +194,8 @@ require : [NULL]
   
 <div class="card">
 <!--${
-define : 小ちい
-require : [猫]
+"define" : "小ちい"
+"require" : ["猫"]
 }--> 
 <p class="big" >
 <span class="chiisai">&#128008</span>
@@ -205,8 +205,8 @@ require : [猫]
 
 <p class="big" > &#8800 </p>
 <!--${
-define : 大きい
-require : [猫]
+"define" : "大きい"
+"require" : ["猫"]
 }--> 
 <p class="big" >
 <span class="ookii">&#128008</span>
@@ -289,6 +289,11 @@ require : [猫]
 --> 
 
 <div class="card big">
+<!--${
+"define" : "ウキウキ"
+"require" : ["猿"]
+}--> 
+
 <p>&#128266
 <br>
 <ruby>猿<rt>&#128018</rt></ruby> : <span class="onomatopea">ウキウキ</span>
